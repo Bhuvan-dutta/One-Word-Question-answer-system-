@@ -44,11 +44,8 @@ sw = stopwords.words(language)
 
 ################################Required Input from users##################################
 
-User_Question ="How much Growth was led by UK?"
-#User_Question ="Who recognized TCS as Customer Success Partner of the Year?"
-#User_Question="Why TCS Customers value the lower attrition?"
-#User_Question="What is the revenue growth for Life Sciences & Healthcare in TCS?"
-pdf_path=r'C:\Users\bhuva_pxpvpbh\OneDrive\Desktop\Press Release - INR.pdf'
+User_Question ="Enter your question"
+pdf_path=r'Mention the full path of PDF'
 
 #######################Creating mask and their entity mappings###################### 
 mask_list=["What","Who","When","How many","How much","Why","How did"]
